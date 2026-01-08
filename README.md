@@ -1,5 +1,8 @@
 # Star Classifier
-This project is a machine learning application for classifying stars based on their physical characteristics.
+
+![introduction](star-diagram.jpg)
+
+This project is a machine learning application for classifying stars based on their physical characteristics **with AI model accuracy reaching 98%**.
 The model uses a neural network trained on astrophysical data to predict the type of a star given its temperature, luminosity, radius, and spectral properties.
 The model will predict various star types, ranging from type 0 to type 6. You can see the specifics like this:
 | Star Type Code | Star Classification |
@@ -91,3 +94,7 @@ class StarClassifier(nn.Module):
 
 ## 4. Demonstration
 To visualize and try out the live test of the model I have created, you can see the demo [here](https://starclassifier-obama.streamlit.app/)
+
+![demo](st-star.png)
+
+You can learn and use this program to help you with your star prediction tasks. You're more than can to improve this program on your own devices (even if you dont contribute), and I fully support that. However, contributing to this repository is highly recommended as a form of productive collaboration.
