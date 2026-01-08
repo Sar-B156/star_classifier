@@ -2,6 +2,11 @@ import streamlit as st
 import joblib
 from src.predict import load_model, predict_star
 from src.preprocess import preprocess_input
+import sys
+import os
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(ROOT_DIR)
 
 
 
@@ -131,3 +136,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
